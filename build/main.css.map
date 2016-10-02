@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.css"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;;AAED;EACE,qBAAc;EAAd,qBAAc;EAAd,cAAc;CACf","file":"main.css","sourcesContent":["a {\n  text-decoration: none; \n}\n\nmy-container {\n  display: flex;\n}\n"],"sourceRoot":"/source/"}

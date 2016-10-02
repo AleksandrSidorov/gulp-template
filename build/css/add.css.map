@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/add.css"],"names":[],"mappings":"AAAA,8BAA8B;;AAE9B;EACE,qBAAc;EAAd,qBAAc;EAAd,cAAc;CACf","file":"css/add.css","sourcesContent":["/* This Is additional style */\n\n.another-one {\n  display: flex;\n}\n\n"],"sourceRoot":"/source/"}

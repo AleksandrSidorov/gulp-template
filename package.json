@@ -1,0 +1,22 @@
+{
+  "name": "gulp-template",
+  "version": "0.0.1",
+  "description": "Gulp template for web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "postcss",
+    "pug"
+  ],
+  "author": "Aleksandr Sidorov",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "postcss-cssnext": "^2.8.0"
+  }
+}

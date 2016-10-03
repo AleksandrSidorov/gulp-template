@@ -32,7 +32,7 @@ gulp.task('css', () => {
 gulp.task('pug', () => {
     var pug = require('gulp-pug');
 
-    return gulp.src('src/**/*.pug')
+    return gulp.src('src/pug/2-pages/*.pug', { base: 'src/pug/2-pages' })
         .pipe( newer('build/**/*.html') )
         .pipe( sourcemaps.init() )
         .pipe( pug({ pretty: true }) )
@@ -47,6 +47,6 @@ gulp.task('serve', ['css', 'pug'], () => {
         }
     });
 
-    gulp.watch('src/**/*.css', ['css', reload]);
-    gulp.watch('src/**/*.pug', ['pug', reload]);
+    gulp.watch('src/css/**/*.css', ['css', reload]);
+    gulp.watch('src/pug/**/*.pug', ['pug', reload]);
 });

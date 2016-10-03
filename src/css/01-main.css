@@ -1,8 +1,11 @@
 @import 'normalize.css';
 @import 'cssrecipes-defaults';
-@import 'add.css';
 
 /* This is main style */
 .my-container {
   display: flex;
+}
+
+p {
+    color: darkgreen;
 }

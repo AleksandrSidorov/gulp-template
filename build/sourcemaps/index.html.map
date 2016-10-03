@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["index.pug"],"sourcesContent":["doctype html\r\nhtml\r\n    head\r\n        link(rel=\"stylesheet\", href=\"./css/style.min.css\")\r\n        title Template Title\r\nbody\r\n    h1 Hello, World!\r\n    p This is the Gulp template\r\n"],"file":"index.html","sourceRoot":"/source/"}
